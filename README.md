@@ -12,9 +12,14 @@
 The script will print all your mutations with their classification and then print a small summary. Here is mine for reference:
 
 ```
-Report
-% Mutated genes: 1.97%
-% Mutated genes that are benign: 93.98%
-% Mutated genes that are ambiguous: 3.94%
-% Mutated genes that are pathogenic: 2.08%
+Report:
+        % Mutated genes: 1.97%
+        % Mutated genes with at least 1 allele classified as benign: 93.98%
+        % Mutated genes with at least 1 allele classified as ambiguous: 3.94%
+        % Mutated genes with at least 1 allele classified as pathogenic: 2.08%
+        % Mutated genes with 2 alleles classified as benign: 31.11%
+        % Mutated genes with 2 alleles classified as ambiguous: 0.88%
+        % Mutated genes with 2 alleles classified as pathogenic: 0.33%
 ```
+
+![distribution](mutation_distribution.svg)
