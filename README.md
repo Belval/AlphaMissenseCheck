@@ -2,10 +2,12 @@
 
 ## How to use
 
-1. Download the [AlphaMissense_hg19.tsv.gz](https://console.cloud.google.com/storage/browser/_details/dm_alphamissense/AlphaMissense_hg19.tsv.gz;tab=live_object) file
-2. Download your genome data from 23andme
-3. Un-gzip both and rename your genome file as "genome.txt"
-4. Run `python check.py`
+1. Clone the repository `git clone https://github.com/Belval/AlphaMissenseCheck.git`
+2. Download the [AlphaMissense_hg19.tsv.gz](https://console.cloud.google.com/storage/browser/_details/dm_alphamissense/AlphaMissense_hg19.tsv.gz;tab=live_object) file
+3. Download your genome data from 23andme
+4. Un-gzip both and rename your genome file as "genome.txt"
+5. Install dependencies `pip install -r requirements.txt`
+6. Run `python check.py`
 
 ## Output
 
